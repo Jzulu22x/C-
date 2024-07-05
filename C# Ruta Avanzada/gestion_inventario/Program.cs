@@ -172,7 +172,7 @@ while (run)
 ║  NRO  ║     NOMBRE DEL PRDUCTO      ║     VALOR     ║        CANTIDAD       ║        TOTAL         ║
 ║       ║                             ║               ║                       ║                      ║
 ╠════════════════════════════════════════════════════════════════════════════════════════════════════╣");
-
+            contador = 0;
             foreach (var producto in productos)
             {
                 contador++;
@@ -355,7 +355,7 @@ while (run)
 ║  NRO  ║     NOMBRE DEL PRDUCTO      ║     VALOR     ║        CANTIDAD       ║        TOTAL         ║
 ║       ║                             ║               ║                       ║                      ║
 ╠════════════════════════════════════════════════════════════════════════════════════════════════════╣");
-
+            contadorProductoMostrar = 0;
             foreach (var producto in productos)
             {
                 contadorProductoMostrar++;
