@@ -136,5 +136,13 @@ for (int i = 1; i <= 10; i++){
 }
 
 //------------------------------------------------------------- Ejercicio 16 -----------------------------------------------------------------------//
+string cadena1 = "Hola";
+int cadena1int = cadena1.Count();
+string cadena2 = "mundo";
+int cadena2int = cadena2.Count();
+Console.WriteLine($"{cadena1} {cadena2} y juntas suman {cadena1int + cadena2int}");
 
 //------------------------------------------------------------- Ejercicio 17 -----------------------------------------------------------------------//
+string cadenaSub = "Hola, soy Juan Diego";
+string subString = cadenaSub.Substring(4,8);
+Console.WriteLine(subString);
