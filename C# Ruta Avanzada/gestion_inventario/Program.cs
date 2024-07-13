@@ -88,7 +88,7 @@ while (run)
 ║  NRO  ║     NOMBRE DEL PRODUCTO     ║     VALOR     ║        CANTIDAD       ║        TOTAL         ║
 ║       ║                             ║               ║                       ║                      ║
 ╠════════════════════════════════════════════════════════════════════════════════════════════════════╣");
-
+            verProducto = 0;
             foreach (var producto in productos)
             {//Este for each recorre la lista de objetos e imprime cada uno, junto con el valor del contador
                 verProducto++;
